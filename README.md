@@ -1,6 +1,7 @@
-# API для проекта "Тестовое задание для фронтэнд инженера: ООО Видита Системз"
+# API для проекта "Тестовое задание - Табличный компонент" на позицию Frontend-разработчик (React) 
+
 Ссылка на репозиторий фронтэнд приложения -
-https://github.com/Korsakov-ua-dn/vidita-systems-front
+https://github.com/Korsakov-ua-dn/watchit-front
 ## Технологический стек:
 NodeJS, Express, MongoDB.
 
