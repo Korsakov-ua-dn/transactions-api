@@ -14,7 +14,8 @@ class TransactionsController {
 
     async getAll(req, res) {
         try {
-            const transactions = await TransactionsService.getAll();
+            const { limit, skip } = req.query;
+            const transactions = await TransactionsService.getAll(Number(limit), Number(skip));
             return res.json(transactions);
         } catch (e) {
             res.status(500).json(e)

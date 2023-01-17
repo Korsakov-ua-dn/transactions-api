@@ -6,8 +6,8 @@ class TransactionsService {
     return createdTransactions;
   }
 
-  async getAll() {
-    const transactions = await Transactions.find();
+  async getAll(limit, skip) {
+    const transactions = await Transactions.find().limit(limit).skip(skip);
     return transactions;
   }
 }
